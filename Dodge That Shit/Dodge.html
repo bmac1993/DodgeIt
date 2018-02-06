@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Template</title>
+	<style type="text/css">
+	canvas{
+		border:1px solid gray;
+	}
+	#audioControls{ 
+			display:none; 
+	}
+	</style>
+	<script src="js/main.js"></script>
+	<script src="js/utilities.js"></script>
+	<script src="js/player.js"></script>
+	<script src="js/audio.js"></script>
+	<script src="js/revolve.js"></script>
+	<script src="js/collisions.js"></script>
+	<script src="js/pickup.js"></script>
+	<script src="js/onboarding.js"></script>
+	<script src="js/obstacle.js"></script>
+</head>
+<body>
+	<canvas width="640" height="480">
+		
+	</canvas>
+    <section id="audioControls"> 
+ <audio id="bgAudio" src="media/Background_audio_low.mp3" controls loop></audio>
+ <audio id="gameOverAudio" src="media/game-over.wav" controls></audio> 
+ <audio id="effectAudio" controls></audio> 
+</section>
+</body>
+</html>
